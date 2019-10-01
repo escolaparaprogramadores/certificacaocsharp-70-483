@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _01_TaskParallel
+namespace Aula_01_TaskParallel
 {
     class Program
     {
