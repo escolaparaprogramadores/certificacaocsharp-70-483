@@ -1,5 +1,4 @@
 ﻿using System.Diagnostics;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -32,68 +31,30 @@ namespace Aula_01_TaskParallel
 
         private static void ImprimirPonto()
         {
-        //    for (int i = 0; i < 300; i++)           
-        //    {
-        //        ExecutarTarefaDemorada();
-        //        System.Console.Write(".");
-        //    } 
-
-           Parallel.For(0,300, (i)=>
+           //for (int i = 0; i < 300; i++)
+           Parallel.For(0, 300, (i)=> 
            {
                ExecutarTarefaDemorada();
-               System.Console.Write(".");             
-           }); 
-
-        //    var lista = Enumerable.Range(0,300);
-        //    Parallel.ForEach(lista, (ietm)=>
-        //    {
-        //        ExecutarTarefaDemorada();
-        //        System.Console.Write(".");
-        //    });         
+               System.Console.Write(".");
+           });
         }
-
         private static void ImprimirUm()
         {
-        //    for (int i = 0; i < 300; i++)
-        //    {
-        //        ExecutarTarefaDemorada();
-        //        System.Console.Write("1");
-        //    }
-
-             Parallel.For(0,300, (i)=>
+            //for (int i = 0; i < 300; i++)
+           Parallel.For(0, 300, (i)=> 
            {
                ExecutarTarefaDemorada();
-               System.Console.Write("1");             
-           }); 
-
-        //    var lista = Enumerable.Range(0,300);
-        //    Parallel.ForEach(lista, (ietm)=>
-        //    {
-        //        ExecutarTarefaDemorada();
-        //        System.Console.Write("1");
-        //    });      
+               System.Console.Write("1");
+           });
         }
-
         private static void ImprimirZero()
         {
-        //    for (int i = 0; i < 300; i++)
-        //    {
-        //        ExecutarTarefaDemorada();
-        //        System.Console.Write("0");
-        //    }
-
-             Parallel.For(0,300, (i)=>
+           //for (int i = 0; i < 300; i++)
+           Parallel.For(0, 300, (i)=> 
            {
                ExecutarTarefaDemorada();
-               System.Console.Write("0");             
-           }); 
-
-        //    var lista = Enumerable.Range(0,300);
-        //    Parallel.ForEach(lista, (ietm)=>
-        //    {
-        //        ExecutarTarefaDemorada();
-        //        System.Console.Write("0");
-        //    });      
+               System.Console.Write("0");
+           });
         }
         private static void ExecutarTarefaDemorada()
         {
