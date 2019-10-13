@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula_02_Parallel.For_e_Para
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula_03_Parando_um_loop_Paralello", "Aula_03_Parando_um_loop_Paralello\Aula_03_Parando_um_loop_Paralello.csproj", "{E932CC8D-C15B-438E-83B7-7A455E5A2B29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula_04_IsCompleted_LowestBreakIteration", "Aula_04_IsCompleted_LowestBreakIteration\Aula_04_IsCompleted_LowestBreakIteration.csproj", "{ED492FC3-26DE-433E-8907-DF01995524C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,17 @@ Global
 		{E932CC8D-C15B-438E-83B7-7A455E5A2B29}.Release|x64.Build.0 = Release|Any CPU
 		{E932CC8D-C15B-438E-83B7-7A455E5A2B29}.Release|x86.ActiveCfg = Release|Any CPU
 		{E932CC8D-C15B-438E-83B7-7A455E5A2B29}.Release|x86.Build.0 = Release|Any CPU
+		{ED492FC3-26DE-433E-8907-DF01995524C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED492FC3-26DE-433E-8907-DF01995524C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED492FC3-26DE-433E-8907-DF01995524C5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ED492FC3-26DE-433E-8907-DF01995524C5}.Debug|x64.Build.0 = Debug|Any CPU
+		{ED492FC3-26DE-433E-8907-DF01995524C5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ED492FC3-26DE-433E-8907-DF01995524C5}.Debug|x86.Build.0 = Debug|Any CPU
+		{ED492FC3-26DE-433E-8907-DF01995524C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED492FC3-26DE-433E-8907-DF01995524C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED492FC3-26DE-433E-8907-DF01995524C5}.Release|x64.ActiveCfg = Release|Any CPU
+		{ED492FC3-26DE-433E-8907-DF01995524C5}.Release|x64.Build.0 = Release|Any CPU
+		{ED492FC3-26DE-433E-8907-DF01995524C5}.Release|x86.ActiveCfg = Release|Any CPU
+		{ED492FC3-26DE-433E-8907-DF01995524C5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
